@@ -119,7 +119,7 @@ def getip():
 
     try:
 
-        ip = urlopen(Request("http://ip.42.pl/raw")).read().decode().strip()
+        ip = requests.get("https://api.ipify.org").text
 
     except:
 
